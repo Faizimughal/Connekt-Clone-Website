@@ -201,8 +201,7 @@ body {
         .dots-img {
             margin-left: 0px;
             margin-top: 90px;
-           
-        }
+    }
 
         .svg-text {
             & p {
@@ -219,6 +218,21 @@ body {
                 @media (max-width: 1181px) {
                     font-size: 60px; /* Adjust font size for smaller screens */
                     line-height: 70px; /* Adjust line height for smaller screens */
+                    text-align: center;
+                }
+                @media (max-width: 768px) {
+                    font-size: 40px; /* Adjust font size for smaller screens */
+                    line-height: 50px; /* Adjust line height for smaller screens */
+                    text-align: center;
+                }
+                @media (max-width: 480px) {
+                    font-size: 30px; /* Adjust font size for smaller screens */
+                    line-height: 40px; /* Adjust line height for smaller screens */
+                    text-align: center;
+                }
+                @media (max-width: 320px) {
+                    font-size: 20px; /* Adjust font size for smaller screens */
+                    line-height: 30px; /* Adjust line height for smaller screens */
                     text-align: center;
                 }
              
@@ -286,6 +300,22 @@ body {
             .button {
                 margin-left: 0;
                 margin-top: 10px;
+            }
+        }
+    }
+    @media (max-width: 768px) {
+        .svg-text {
+            & p {
+                font-size: 50px;
+                line-height: 60px;
+            }
+            & h1 {
+                font-size: 30px;
+                line-height: 40px;
+            }
+            & h2 {
+                font-size: 20px;
+                line-height: 30px;
             }
         }
     }
@@ -374,6 +404,9 @@ body {
             
             .section2-img{
                 margin-bottom: 100px;
+                margin: auto;
+                width: 100%;
+                height: auto;
             }
         }
    
@@ -407,6 +440,7 @@ body {
        }
     }
  }
+
 }
 
 // --------------------------------------------end of section2---------------------------------
