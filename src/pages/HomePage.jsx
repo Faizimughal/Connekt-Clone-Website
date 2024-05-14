@@ -1,4 +1,5 @@
 import React from 'react';
+import bootstrap from 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../images/HomePage-images/logo.png';
 import vector from '../images/HomePage-images/Vector.png';
@@ -280,6 +281,7 @@ const HomePage = () => {
 
 
         {/* ---------------------------------------start of section8------------------------ */}
+        
         <div className='section8 container' id='getquote'>
            <div className="top-content">
            <div className="heading">
@@ -308,6 +310,7 @@ const HomePage = () => {
            </div>
          </div>
         </div>
+
         {/* ---------------------------------------end of section8------------------------ */}
 
 
