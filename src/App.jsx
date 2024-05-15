@@ -9,6 +9,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
 import "./App.scss";
 import HomePage from "./pages/HomePage";
+import AboutUs from "./pages/AboutUs";
 
 
 
@@ -22,6 +23,8 @@ export default function App() {
          element={<Layout />}> */}
           <Route path="/"
           element={<HomePage />} />
+          <Route path="/AboutUs"
+          element={<AboutUs />} />
           {/* <Route path="blogs"
            element={<Blogs />} /> */}
           {/* <Route path="contact"

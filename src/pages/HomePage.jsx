@@ -47,7 +47,7 @@ const HomePage = () => {
             <div className='links'>
                 <ul>
                     <li>
-                        <a href="">About</a>
+                        <a href="/AboutUs">About</a>
                     </li>
                     <li className='dropdown'>
                         <a href="#ourservices">Services</a>
@@ -285,7 +285,7 @@ const HomePage = () => {
         <div className='section8 container' id='getquote'>
            <div className="top-content">
            <div className="heading">
-            <h2><span className="text1">GET A</span><span className="text2"> QUOTE</span></h2>
+            <h1><span className="text1">GET A</span><span className="text2"> QUOTE</span></h1>
            </div>
            </div>
            <div className="bottom-content">

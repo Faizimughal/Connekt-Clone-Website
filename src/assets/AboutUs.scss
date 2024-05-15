@@ -1,0 +1,382 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+
+// -------------------------------start of aboutus-herosection----------------------
+
+.aboutus-herosection{
+    background-image: url('../images/AboutUs-images/aboutherosection.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 100vw;
+    .navbar {
+        background: linear-gradient(180deg, #013882 0%, rgba(1, 56, 130, 0) 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px; /* Add padding to the navbar */
+        width: 100%;
+        position: absolute; /* Position navbar at the top */
+        top: 0;
+
+        .logo {
+            img {
+                width: 184px;
+                height: 45px;
+            }
+        }
+        
+
+        .links {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            ul {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin: 0; /* Remove default margin */
+                padding: 0;
+
+                li {
+                    list-style: none;
+                    margin: 0 30px;
+                    position: relative;
+
+                    a {
+                        text-decoration: none;
+                        color: #fff;
+                        position: relative;
+
+                        &:hover::after {
+                            content: "";
+                            position: absolute;
+                            bottom: 0;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            width: 50%;
+                            height: 2px;
+                            background-color: white;
+                        }
+                    }
+
+                    /* Dropdown styles */
+                    &.dropdown {
+                        position: relative;
+
+                        .dropdown-content {
+                            display: none;
+                            position: absolute;
+                            top: 100%;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            background-color: #013882;
+                            width: 200px;
+                            padding: 10px;
+                            text-align: center;
+
+                            li {
+                                margin: 5px 0;
+                                a {
+                                    color: white;
+                                    text-decoration: none;
+                                    display: block;
+
+                                    &:hover {
+                                        background-color: white; /* Change background color to white */
+                                        color: rgba(42, 143, 194, 1);
+                                        width: 100%;
+                                        /* Change text color to #013882 */
+                                    }
+                                }
+                            }
+                        }
+
+                        &:hover .dropdown-content {
+                            display: block;
+                        }
+
+                        /* Dropdown arrow */
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            top: 50%;
+                            right: -15px;
+                            transform: translateY(-50%) rotate(45deg); /* Rotate initially by 45 degrees */
+                            border: solid white;
+                            border-width: 0 3px 3px 0;
+                            padding: 3px;
+                            display: inline-block;
+                            transition: transform 0.3s;
+                        }
+
+                        &:hover::after {
+                            transform: translateY(-50%) rotate(-45deg);
+                        }
+                    }
+                }
+            }
+        }
+
+        hr {
+            width: 85%;
+            height: 2px;
+            background-color: white;
+            text-align: center;
+            margin: 0 auto;
+            background: transparent;
+            color: white;
+            margin-top: 20px;
+        }
+        @media (max-width: 880px) {
+            /* Styles for screens smaller than 880px */
+            .navbar {
+                width: auto;
+                overflow: hidden;
+                .links {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0; /* Remove default margin */
+                    padding: 0;
+                    ul {
+                        li {
+                            list-style: none;
+                            margin: 0 5px;
+                            position: relative;
+                            a {
+                                font-size: xx-small;
+                                margin: 2px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 716px) {
+            /* Styles for screens smaller than 716px */
+            .links {
+                ul {
+                    li.dropdown::after {
+                        margin: 0px 5px;
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 863px) {
+            /* Styles for screens smaller than 438px */
+            .links ul {
+                display: none;
+            }
+        }
+
+   
+}
+.herosection-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .aboutus-heading{
+        font-family: Avenir;
+        font-size: 75px;
+        font-weight: 300;
+        margin-top: 10%;
+        .text1{
+         color: white;
+         font-weight: bold;
+         margin-right: 10px;
+        }
+        .text2{
+           color: #2A8FC2;
+        }
+    }
+    .aboutus-para{
+        font-family: Helvetica;
+        font-size: 16px;
+        font-weight: 350px;
+        line-height: 25px;
+        text-align: center;
+        color: white;
+        .text1{
+            font-weight: bolder;
+            font-size: 18px;
+        }
+        .text2{
+            font-weight: 800px;
+            font-size: 18px;
+        }
+    }
+}
+}
+// ----------------------------------end of aboutus-herosection-------------------------
+
+// ------------------------------------start of section1---------------------------------
+
+.aboutus-section1{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../images/HomePage-images/section5-background.png');
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: contain;
+    .content{
+        .heading{
+            text-transform: uppercase;
+            font-family: Avenir;
+            font-size: 66px;
+            font-weight: 500;
+            text-align: center;
+            margin-top: 8%;
+            .text2{
+                color: #2A8FC2;
+            }
+         }
+    }
+    .bottom-content{
+        margin-top: 5%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        gap: 20px;
+        // position: relative;
+        .img1{
+            position: relative;
+            img{
+               height: 470px;
+               width: 450px; 
+            }
+            .overlayimg1{
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 100%;
+                margin-top: 100px;
+                display: flex;
+                text-align: center;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 20px;
+                padding: 10px;
+                .img{
+                 img{
+                    height: 100px;
+                    width: 100px;
+                 } 
+                }
+                .heading{
+                    color: #fff;
+                }
+                .para{
+                    color: white;
+                    font-family: Avenir;
+                    font-size: 18px;
+                    font-weight: 350;
+                    line-height: 22px;
+                    text-align: left;
+                }
+            }
+        }
+        .img2{
+            position: relative;
+            img{
+               height: 470px;
+               width: 450px; 
+            }
+            .overlayimg2{
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 100%;
+                margin-top: 100px;
+                display: flex;
+                text-align: center;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 20px;
+                padding: 10px;
+                // margin-left: 20px;
+                .img{
+                    img{
+                       height: 100px;
+                       width: 100px;
+                    } 
+                   }
+                   .heading{
+                       color: #fff;
+                   }
+                   .para{
+                    color: white;
+                    font-family: Avenir;
+                    font-size: 18px;
+                    font-weight: 350;
+                    line-height: 22px;
+                    text-align: left;
+
+                   }
+            }
+        }
+    }
+}
+// ---------------------------------------end of section1----------------------------------
+
+// ------------------------------------------start of section2-------------------------------
+.aboutus-section2{
+    height: 90vh;
+    width: 100vw;
+    background-color: #013882;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .top-content{
+          .heading{
+           h2{
+            font-family: Avenir;
+            font-size:  70px;
+            font-weight: 500px;
+            text-align: center;
+           }
+              .text1{
+                color: #fff;
+              }
+              .text2{
+                color: #2A8FC2;
+              }
+        }
+    }
+    .bottom-content{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        .item1,.item2,.item3,.item4{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 20px;
+            .heading{
+                h4{
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+// --------------------------------------------end of section2-----------------------------
