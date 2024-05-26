@@ -380,3 +380,65 @@ body{
     }
 }
 // --------------------------------------------end of section2-----------------------------
+
+// -------------------------------------------start of section3-------------------------------
+
+.aboutus-section3{
+    height: 100vh;
+    width: 100vw;
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 50px;
+        .left-content{
+            display: flex;
+            flex-direction: column;
+           .img{
+            img{
+                height: 70px;
+            }
+           }
+           .heading{
+            h2{
+                font-family: Avenir;
+                font-size: 55px;
+                font-weight: 500px;
+            }
+            .text2{
+                color: #2A8FC2;
+            }
+           }
+           .btn{
+            display: flex;
+            gap: 10px;
+            margin-left: -20px;
+            // align-items: start;
+            // justify-content: left;
+            
+            input{
+                border-radius:10px;
+                background-color: #2A8FC2;
+                color: #fff;          
+            }
+            span{
+                &.text{
+                    color: #2A8FC2;
+                }
+            }
+           }
+        }
+        .right-content{
+            .img{
+                img{
+                    height: 550px;
+                    width: 400px;
+                    margin-top: 20px;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}
+// --------------------------------------------end of section3-----------------------------

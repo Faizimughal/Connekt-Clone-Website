@@ -9,6 +9,9 @@ import item1 from '../images/AboutUs-images/section2(img1).png'
 import item2 from '../images/AboutUs-images/section2(img2).png'
 import item3 from '../images/AboutUs-images/section2(img3).png'
 import item4 from '../images/AboutUs-images/section2(img4).png'
+import hand from '../images/AboutUs-images/hand.png'
+import nextarrow1 from '../images/HomePage-images/nextarrow.png'
+import child from '../images/AboutUs-images/child.png'
 import '../assets/AboutUs.scss';
 
 const AboutUs = () => {
@@ -151,8 +154,34 @@ const AboutUs = () => {
          
          {/* ---------------------------------------start of section3-------------------------------  */}
          <div className="aboutus-section3">
+         <div className="content">
+         <div className="left-content">
+          <div className="img">
+            <img src={hand} alt="" />
           </div>
-
+          <div className="heading">
+            <h2><span className="text1">OUR</span> <span className="text2">FOUNDATION</span></h2>
+          </div>
+          <div className="para">
+            <p>At Connekt, we are driven by more than just business success – we are <br /> committed to making a meaningful impact on the world. We firmly believe that <br /> education is a powerful tool for change, particularly for children who might not <br /> otherwise have access to it. This belief is at the heart of our foundation's <br /> mission.</p>
+            <p>To turn this vision into reality, we dedicate a portion of our sales to our <br /> foundation, specifically aimed at supporting the education of children in need <br /> in Mexico. Our initiatives focus on not just providing access to education but <br /> also ensuring quality learning experiences that can pave the way for brighter <br /> futures.</p>
+            <p>We see this endeavor as an investment in the future generations. By <br /> empowering children through education, we are contributing to building a <br /> world where every child has the opportunity to learn, grow, and contribute <br /> to society. This is our way of extending the ethos of connection and growth that <br /> Connekt stands for, beyond business boundaries and into communities where <br /> it can make a profound difference.</p>
+          </div>
+          <div className="btn">
+            <input type="button" value="DONATE HERE" />
+            <div><span className='text'>LEARN MORE</span> <span><a href="/"><img src={nextarrow1} /></a></span></div>
+          </div>
+         </div>
+         <div className="right-content">
+          <div className="rectangle">
+          <div className="img">
+           <img src={child} alt="" />
+          </div>
+          </div> 
+         </div>
+         </div>
+          </div>
+          {/* --------------------------------------------end of section3----------------------------- */}
         </>
     );
 };
