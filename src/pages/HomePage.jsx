@@ -38,7 +38,7 @@ const HomePage = () => {
 
     return (
        <>
-       {/* --------------------------------start of hero section-------------------- */}
+       {/* ------------------------------start of hero section-------------------- */}
         <div className='hero-section'>
         <div className='navbar'>
             <div className='logo'>
@@ -97,7 +97,7 @@ const HomePage = () => {
         </div>
         {/* -----------------------------end of hero section------------------------ */}
 
-        {/* ---------------------------start of section 2--------------------------- */}
+        {/* -----------------------------start of section 2--------------------------- */}
         <div className='section2'>
            <div className='content'>
              <div className='section2-img'>
@@ -115,9 +115,9 @@ const HomePage = () => {
              </div>
            </div>
         </div>
-        {/* --------------------------------end of section2---------------------- */}
+        {/* -------------------------- ---end of section2---------------------- */}
 
-        {/* ----------------------------------start of section3---------------------------- */}
+        {/* ------------------------------start of section3---------------------------- */}
         <div className='section3'>
          <div className="section3-text">
             <div className='text1'>
@@ -131,9 +131,9 @@ const HomePage = () => {
             </div>
          </div>
         </div>
-        {/* ------------------------------------end of section3------------------------------ */}
+        {/* ------------------------------end of section3------------------------------ */}
 
-        {/* ---------------------------------------start of section4------------------------ */}
+        {/* ------------------------------start of section4------------------------ */}
 
         <div className='section4' id='ourservices'>
             <div className='heading'><h2><span>OUR</span> <span className='text2'>SERVICES</span></h2></div>
@@ -149,10 +149,10 @@ const HomePage = () => {
             </div>
         </div>
 
-        {/* ------------------------------------------end of section4------------------------- */}
+        {/* -------------------------------end of section4------------------------- */}
 
 
-        {/* ---------------------------------------start of section5------------------------ */}
+        {/* ------------------------------start of section5------------------------ */}
         <div className='section5 container' id='ourvalues'>
            <div className="content ">
             <div className="heading">
@@ -200,9 +200,9 @@ const HomePage = () => {
            </div>
            </div>
         </div>
-        {/* ---------------------------------------end of section5------------------------ */}
+        {/* -------------------------------end of section5------------------------ */}
 
-        {/* ---------------------------------------start of section6------------------------ */}
+        {/* ------------------------------start of section6------------------------ */}
         <div className='section6'>
             <div className="content container">
                 <div className="right-content">
@@ -229,10 +229,10 @@ const HomePage = () => {
                 </div>
             </div>
         </div>
-        {/* ---------------------------------------end of section6------------------------ */}
+        {/* -------------------------------end of section6------------------------ */}
 
 
-         {/* ---------------------------------------start of section7------------------------ */}
+         {/* -----------------------------start of section7------------------------ */}
         <div className='section7' id='ourblog'>
             <div className="top-content">
                 <div className="heading">
@@ -277,10 +277,10 @@ const HomePage = () => {
             <hr className='bottom-line-nav' />
             <div className='lastlink'><span>LEARN MORE</span> <span><a href="/"><img src={nextarrow1} /></a></span></div>
         </div>
-        {/* ---------------------------------------end of section7------------------------ */}
+        {/* -------------------------------end of section7------------------------ */}
 
 
-        {/* ---------------------------------------start of section8------------------------ */}
+        {/* ------------------------------start of section8------------------------ */}
         
         <div className='section8 container' id='getquote'>
            <div className="top-content">
@@ -311,10 +311,10 @@ const HomePage = () => {
          </div>
         </div>
 
-        {/* ---------------------------------------end of section8------------------------ */}
+        {/* --------------------------------end of section8------------------------ */}
 
 
-        {/* ---------------------------------------start of section9------------------------ */}
+        {/* -------------------------------start of section9------------------------ */}
         <footer>
             <div className="logo">
                 <img src={logo} alt="" />
@@ -339,7 +339,7 @@ const HomePage = () => {
                 <img src={dog} alt="" />
             </div>
         </footer>
-        {/* ---------------------------------------end of section9------------------------ */}
+        {/* ---------------------------------end of section9------------------------ */}
            
        </>
     );

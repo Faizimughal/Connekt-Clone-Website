@@ -218,9 +218,9 @@ body{
     }
 }
 }
-// ----------------------------------end of aboutus-herosection-------------------------
+// ---------------------------------end of aboutus-herosection-------------------------
 
-// ------------------------------------start of section1---------------------------------
+// -----------------------------------start of section1---------------------------------
 
 .aboutus-section1{
     height: 100vh;
@@ -329,9 +329,9 @@ body{
         }
     }
 }
-// ---------------------------------------end of section1----------------------------------
+// -------------------------------------end of section1----------------------------------
 
-// ------------------------------------------start of section2-------------------------------
+// -------------------------------------start of section2-------------------------------
 .aboutus-section2{
     height: 90vh;
     width: 100vw;
@@ -379,9 +379,9 @@ body{
         }
     }
 }
-// --------------------------------------------end of section2-----------------------------
+// --------------------------------------end of section2-----------------------------
 
-// -------------------------------------------start of section3-------------------------------
+// --------------------------------------start of section3-------------------------------
 
 .aboutus-section3{
     height: 100vh;
@@ -441,4 +441,261 @@ body{
         }
     }
 }
-// --------------------------------------------end of section3-----------------------------
+// --------------------------------------end of section3-----------------------------
+
+// -----------------------------------start of section4--------------------------------------
+.aboutus-section4{
+height: 100vh;
+    width: 100vw;
+    background-image: url('../images/HomePage-images/section5-background.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+        .heading{
+           h2{
+            font-family: Avenir;
+            font-size: 50px;
+            font-weight: 500;
+            text-align: center;
+              .text2{
+                color: #2A8FC2;
+              }
+           } 
+        }
+    }
+    .bottom-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+        gap: 50px;
+        .img{
+            img{
+                height: 100px;
+            }
+        }
+        .cards{
+            display: flex;
+            justify-content: space-evenly;
+            gap: 10px;
+            margin-top: 40px;
+            position: relative;
+            .item1,.item2,.item3{
+                border: 1px dashed #2A8FC2 ;
+                border-radius: 10px;
+                padding: 20px;
+                &:hover{
+                    border: 2px solid  #2A8FC2 ;
+                }
+                .circle{
+                    background-color: #2A8FC2;
+                    height: 20px;
+                    width: 20px;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: -5%;
+                    margin-left: 150px;
+                    align-items: center;
+                    &:hover{
+                        height: 23px;
+                        width: 23px;
+                    }
+                }
+            }
+        }
+    }
+}
+// -----------------------------------end of section4--------------------------------------
+
+// ---------------------------------------start of section5--------------------------------
+.aboutus-section5{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../images/HomePage-images/section5-background.png');
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: contain;
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        // margin: 0px;
+        .heading1{
+            h2{
+                font-family: Avenir;
+                font-size: 50px;
+                font-weight: 500;
+            }
+        }
+        .heading2{
+        h2{
+            font-family: Avenir;
+                font-size: 50px;
+                font-weight: 900;
+                color: #2A8FC2;
+        }
+        }
+    }
+    .bottom-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        .img{
+            img{
+                max-height: 500px; /* Set the maximum height of the image */
+            max-width: 100%;
+            width: 500px; /* Ensure the image doesn't exceed its container width */       
+            }
+        }
+    }
+}
+// ---------------------------------------end of section5--------------------------------
+
+// ----------------------------------start of section6----------------------------
+.aboutus-section6{
+    height: 100vh;
+    width: 100vw;
+    background-color: #013882;
+    .content{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        gap: 50px;
+        padding-bottom: 50px;
+        padding-top: 40px;
+        .left-content{
+            .heading1{
+                h2{
+                    font-weight: 600;
+                    font-size: 50px;
+                    color: #fff;
+                }
+                span{
+                    color: #2A8FC2;
+                }
+            }
+            .para{
+                color: #fff;
+            }
+        }
+        .right-content{
+            .img{
+                 img{
+                    height: 600px;
+                 }
+            }
+        }
+    }
+}
+// -------------------------------------end of section6----------------------------
+
+//  -----------------------------------------start of section7-------------------------
+.aboutus-section7{
+    background-image: url('../images/HomePage-images/section5-background.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size:1000px;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+        .top-content{
+            display: flex;
+            justify-content: left; 
+
+            .heading{
+                // font-family: Avenir;
+                font-size: 66px;
+                font-weight: 700;
+                margin-top: 50px;
+                .text2{
+                    color: #2A8FC2;
+                }
+            }
+        }
+        .bottom-content{
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             margin-top: 50px;
+             gap: 20px;
+             flex-wrap: wrap;
+             
+            .form{
+                height: 300px;
+                width: 600px;
+                
+                input{
+                    display:inline-block;
+                    background: transparent;
+                    height: 50px;
+                    margin: 5px;
+                    border: none;
+                    &.name{
+                        &::placeholder{
+                           color: #3893C1;
+                        }
+                    }
+                    &:hover{
+                        border-bottom: 2px solid #3893C1;
+                    }
+                }
+            }
+            .submit{
+                margin-top: 20px;
+                span{
+                    color: #2A8FC2;
+                }
+            }
+            .right-content{
+                img{
+                    height: 300px;
+                    width: 400px;
+                }
+            }
+        }
+}
+
+//  -----------------------------------------end of section7-------------------------
+
+// ----------------------------------------start of footer--------------------
+.aboutus-section8{
+    background-color: #013882;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    position: relative;
+    flex-wrap: wrap;
+    // overflow: hidden;
+    hr{
+        height: 100px;
+        border: 1px solid white;
+    }
+    .heading{
+        color: #fff;
+    }
+    .mail,.phone,.map{
+        span{
+            color: #fff;
+            margin: 5px;
+        }
+    }
+    .follow-links{
+        margin-top: -30px;
+    }
+    .dogimg{
+        margin-top: -70px;
+    }
+}
+
+// ----------------------------------------end of footer--------------------

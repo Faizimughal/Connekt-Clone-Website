@@ -11,14 +11,25 @@ import item3 from '../images/AboutUs-images/section2(img3).png'
 import item4 from '../images/AboutUs-images/section2(img4).png'
 import hand from '../images/AboutUs-images/hand.png'
 import nextarrow1 from '../images/HomePage-images/nextarrow.png'
+import conneckt from '../images/AboutUs-images/connecktlogo.png'
 import child from '../images/AboutUs-images/child.png'
+import pic from '../images/AboutUs-images/8pic.png'
+import dog1 from '../images/AboutUs-images/dogimage.png'
+import dog from '../images/HomePage-images/dog.png'
+import companydata from '../images/HomePage-images/companydata.png'
+import dropdown from '../images/HomePage-images/downarrow.png'
+import nextarrow from '../images/HomePage-images/nextarrow.png'
+import phone from '../images/HomePage-images/phone.png';
+import mail from '../images/HomePage-images/mail.png';
+import mape from '../images/HomePage-images/map.png';
+import links from '../images/HomePage-images/links.png'
 import '../assets/AboutUs.scss';
 
 const AboutUs = () => {
     return (
         <>
 
-        {/* ----------------------------------start of (aboutus)hero-section----------------------- */}
+        {/* ----------------------------start of (aboutus)hero-section----------------------- */}
          <div className="aboutus-herosection">
          <div className='navbar'>
             <div className='logo'>
@@ -66,9 +77,9 @@ const AboutUs = () => {
           </div>
         </div>
          </div>
-         {/* ----------------------------------end of (aboutus)hero-section------------------------- */}
+         {/* ----------------------------end of (aboutus)hero-section------------------------- */}
          
-         {/* ----------------------------------start of (aboutus)section1--------------------------- */}
+         {/* -----------------------------start of (aboutus)section1--------------------------- */}
          <div className="aboutus-section1">
            <div className="content">
            <div className="heading">
@@ -106,9 +117,9 @@ const AboutUs = () => {
             </div>
            </div>
          </div>
-         {/* ----------------------------------end of (aboutus)section1----------------------------- */}
+         {/* -----------------------------end of (aboutus)section1----------------------------- */}
 
-         {/* ---------------------------------------start of section2-------------------------------  */}
+         {/* -------------------------------start of section2-------------------------------  */}
          <div className="aboutus-section2">
           <div className="top-content">
             <div className="heading">
@@ -150,9 +161,9 @@ const AboutUs = () => {
             </div>
           </div>
          </div>
-         {/* --------------------------------------------end of section2----------------------------- */}
+         {/* --------------------------------end of section2----------------------------- */}
          
-         {/* ---------------------------------------start of section3-------------------------------  */}
+         {/* --------------------------- ----start of section3-------------------------------  */}
          <div className="aboutus-section3">
          <div className="content">
          <div className="left-content">
@@ -181,9 +192,142 @@ const AboutUs = () => {
          </div>
          </div>
           </div>
-          {/* --------------------------------------------end of section3----------------------------- */}
+          {/* ------------------------------end of section3----------------------------- */}
+
+         {/* -------------------------------start of section4-------------------------------  */}
+         <div className="aboutus-section4">
+          <div className="content">
+            <div className="heading">
+              <h2><span className="text1">BEHIND</span> <span className="text2"> OUR LOGO</span></h2>
+            </div>
+          </div>
+          <div className="bottom-content">
+            <div className="img">
+              <img src={conneckt} alt="" />
+            </div>
+            <div className="cards">
+              <div className="item1">
+                <h4>TALENT:</h4>
+                <p>Represents individuals in our community <br /> seeking an opportunity that will boost their <br /> careers and improve their way of living.</p>
+                <div className="circle"></div>
+              </div>
+              <div className="item2">
+                <h4>CONNEKT:</h4>
+                <p>Positioned at the core, Connekt is the breach <br /> between talent and businesses which creates <br /> career opportunities by being a meaningful <br /> talent resource to businesses in our community.</p>
+                <div className="circle"></div>
+              </div>
+              <div className="item3">
+              <h4>CLIENT:</h4>
+              <p>A business that seeks to improve operational <br /> and Human Resources procedures through a <br /> strategic talent solution.</p>
+              <div className="circle"></div>
+              </div>
+            </div>
+          </div> 
+          </div>
+          {/* -------------------------------end of section4------------------------------------------- */}
+
+          {/* -------------------- ----------start of section5---------------------------- */}
+          <div className="aboutus-section5">
+            <div className="content">
+              <div className="heading1">
+                <h2>MORE THAN</h2>
+              </div>
+              <div className="heading2">
+                <h2>A BUSSINESS, A TEAM</h2>
+              </div>
+            </div>
+            <div className="bottom-content">
+             <div className="img">
+              <img src={pic} alt="" />
+             </div>
+            </div>
+          </div>
+          {/* -------------------------------end of section5------------------------------------------- */}
+
+          {/* ------------------------------start of section6-------------------------------  */}
+          <div className="aboutus-section6">
+            <div className="content">
+              <div className="left-content">
+              <div className="heading1">
+                <h2>MEET OUR TEAM <br />MASCOT - <span>CONNEKTIN!</span></h2>
+              </div>
+              <div className="para">
+                <p>Meet Connektin, our spirited team mascot. Connektin isn't just any mascot; he's a bright blue, <br /> cute dog who proudly wears a shirt emblazoned with our logo. But Connektin is much more <br /> than a cheerful presence – he embodies the very spirit and values that drive us.</p>
+                <p> As a dog, Connektin symbolizes loyalty – a trait we hold in high esteem at Connekt. His <br /> unwavering dedication reflects our commitment to our clients and candidates. Just as a dog is <br /> known for being a faithful companion, Connektin represents our promise to stand by our <br /> partners through every step of their journey.</p>
+                  <p> But there's more to Connektin than meets the eye. His vibrant blue color is not just visually <br /> striking but also signifies trust, stability, and depth – characteristics synonymous with the <br /> Connekt brand. He is approachable, friendly, and always ready to lend a helping paw,<br /> embodying our ethos of accessibility and support. </p>
+                  <p>Connektin also represents the dynamic and innovative spirit of our team. He's playful and <br /> energetic, symbolizing the creativity and enthusiasm we bring to solving staffing challenges. <br /> With a wag of his tail and a spark in his eyes, Connektin inspires us to approach each day with <br /> positivity and a can-do attitude.</p>
+              </div>
+              </div>
+              <div className="right-content">
+                <div className="img">
+                  <img src={dog1} alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* -------------------------------end of section6----------------------------- */}
+
+          {/* ---------------------------- --start of section7--------------------------------- */}
+
+          <div className='aboutus-section7 container' id='getquote'>
+           <div className="top-content">
+           <div className="heading">
+            <h1><span className="text1">GET A</span><span className="text2"> QUOTE</span></h1>
+           </div>
+           </div>
+           <div className="bottom-content">
+           <div className="form">
+            <form>
+                <input type="text"placeholder='Johndoe'  className='name'/>
+                <input type="text" placeholder='Company' /> <br />
+                <input type="text" placeholder='Title' />
+                <input type="email" placeholder='Email' /> <br />
+                <input type="number" placeholder='Phone' />
+                <input type="dropdown"  placeholder='Service Of Interest'/><img src={dropdown} alt="" /> <br />
+                <input type="text" placeholder='Message' />
+            </form>
+            <div className="submit">
+                <span>SUBMIT FORM</span> <span><img src={nextarrow} alt="" /></span>
+            </div>
+           </div>
+           <div className="right-content">
+            <div className="img">
+                <img src={ companydata} alt="" />
+            </div>
+           </div>
+         </div>
+        </div>
+        {/* ----------------------------------end of section7------------------------------------- */}
+
+        {/* ---------------------------------start of footer---------------------------------- */}
+        <footer className='aboutus-section8'>
+            <div className="logo">
+                <img src={logo} alt="" />
+            </div>
+            <hr />
+            <div className="contact-info">
+                <h3 className='heading'>Contact Info:</h3>
+                <div className="mail"><img src={mail} alt="" /><span className='text'>INFO@CONNEKTSOLUTIONS.COM</span></div>
+                <div className="phone"><img src={phone} alt="" /><span className='text'>(305)-452-6831</span></div>
+            </div>
+            <div className="address">
+                <h3 className='heading'>Address:</h3>
+                  <div className="map"><img src={mape} alt="" /><span className="text">1801 NE 123rd Street <br />Suite 314 <br />North Miami, FL 33181</span></div>
+            </div>
+            <div className="follow-links">
+                <h3 className='heading'>Follow us:</h3>
+                <div className="links">
+                    <img src={links} alt="" />
+                </div>
+            </div>
+            <div className="dogimg">
+                <img src={dog} alt="" />
+            </div>
+        </footer>
+        {/* ----------------------------------end of footer------------------------ */}
         </>
     );
 };
+
 
 export default AboutUs;
